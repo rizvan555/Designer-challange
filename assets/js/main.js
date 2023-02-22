@@ -5,7 +5,7 @@ const emailDisplay = document.querySelector("#email-display");
 const emailInput = document.querySelector("#email-input");
 
 function goToEmail() {
-  if (emailInput.value === "Rizvan84@gmx.de") {
+  if (emailInput.value === "karimovrizvan84@gmail.com") {
     form.style.display = "none";
     confirmationPage.style.display = "block";
   }
