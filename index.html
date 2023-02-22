@@ -69,39 +69,173 @@
       <article class="info-section">
         <div class="box1">
           <img src="./assets/resource/images/title02.svg" alt="" />
-          <h4>Start with asking</h4>
-          <p>
-            why You will start seeing things differently and coming up with more
-            effective ways of achieving goals.
-          </p>
+          <article class="info-section__article">
+            <h4>Start with asking</h4>
+            <p>
+              why You will start seeing things differently and coming up with
+              more effective ways of achieving goals.
+            </p>
+          </article>
         </div>
         <div class="box2">
           <img src="./assets/resource/images/title04.svg" alt="" />
-          <h4>Your ideas will have more value</h4>
-          <p>
-            By looking at problems from a different perspective, your ideas will
-            be fresher and more valuable.
-          </p>
+          <article class="info-section__article">
+            <h4>Your ideas will have more value</h4>
+            <p>
+              By looking at problems from a different perspective, your ideas
+              will be fresher and more valuable.
+            </p>
+          </article>
         </div>
         <div class="box3">
           <img src="./assets/resource/images/title01.svg" alt="" />
-          <h4>Design solutions with love</h4>
-          <p>
-            Only when you experience a problem yourself do you understand the
-            frustration of the users and resolve to end it.
-          </p>
+          <article class="info-section__article">
+            <h4>Design solutions with love</h4>
+            <p>
+              Only when you experience a problem yourself do you understand the
+              frustration of the users and resolve to end it.
+            </p>
+          </article>
         </div>
         <div class="box4">
           <img src="./assets/resource/images/title03.svg" alt="" />
-          <h4>Share and show your work</h4>
-          <p>
-            As designers, we are often afraid of showing work that’s not
-            finished or doesn’t look perfect. You will learn to accept feedback
-            and learn from it.
-          </p>
+          <article class="info-section__article">
+            <h4>Share and show your work</h4>
+            <p>
+              As designers, we are often afraid of showing work that’s not
+              finished or doesn’t look perfect. You will learn to accept
+              feedback and learn from it.
+            </p>
+          </article>
         </div>
       </article>
+      <section class="text-image-section">
+        <article class="text-image-section__title">
+          <h1>Are you ready? Let’s go!!</h1>
+          <p>
+            The challenge lasts 30 days. On each of those days you will have to
+            create a solution to any problem you yourself are facing and show
+            the result to the community.
+          </p>
+        </article>
+
+        <div class="text-image-section__box1">
+          <div class="left-box">
+            <img
+              class="main-img"
+              src="./assets/resource/images/step01.png"
+              alt="img1"
+            />
+          </div>
+          <div class="right-box">
+            <h1>01</h1>
+            <img
+              src="./assets/resource/images/step01.svg"
+              alt="logo1"
+              class="main-logo"
+            />
+            <h4>Find your problem</h4>
+            <p>
+              It has to be a problem that’s personally affecting or affected
+              you, like finding your keys, calling a taxi or even remembering
+              something. Open your eyes, look around you carefully and pay close
+              attention to your surroundings.
+            </p>
+          </div>
+        </div>
+        <div class="text-image-section__box2">
+          <div class="left-box">
+            <h1>02</h1>
+            <img src="./assets/resource/images/step02.svg" alt="logo2" />
+            <h4>Think about the solution</h4>
+            <p>
+              It's time to look for solutions. What can you do to solve these
+              problems? It's time to think out of the box, grab your notebook
+              and start writing down all the ideas that come to mind.
+            </p>
+          </div>
+          <div class="right-box">
+            <img
+              class="main-img"
+              src="./assets/resource/images/step02.png"
+              alt="img2"
+            />
+          </div>
+        </div>
+        <div class="text-image-section__box3">
+          <div class="left-box">
+            <img
+              class="main-img"
+              src="./assets/resource/images/step03.png"
+              alt="img3"
+            />
+          </div>
+          <div class="right-box">
+            <h1>03</h1>
+            <img src="./assets/resource/images/step03.svg" alt="logo3" />
+            <h4>Design your proposal</h4>
+            <p>
+              How can design help solve your problem? It's time to think about
+              features and functionality, and then start designing. Don’t forget
+              to always ask yourself: Would I actually use this?
+            </p>
+          </div>
+        </div>
+        <div class="text-image-section__box4">
+          <div class="left-box">
+            <h1>04</h1>
+            <img src="./assets/resource/images/step04.svg" alt="logo4" />
+            <h4>Share your work</h4>
+            <p>
+              Share your design on instagram or dribbble with the hashtag
+              #thedesignproject Remember to explain what the problem was, how
+              you came up with the solution and how the design achieves it. Find
+              out what people have to say about it.
+            </p>
+          </div>
+          <div class="right-box">
+            <img
+              class="main-img"
+              src="./assets/resource/images/step04.png"
+              alt="img4"
+            />
+          </div>
+        </div>
+      </section>
     </main>
+    <footer>
+      <article class="main-site-article">
+        <form id="email-form" onsubmit="return false">
+          <h1>Do you like this challenge?</h1>
+          <p>
+            Subscribe to be the first to hear about updates, tips and
+            recommendations!
+          </p>
+          <input
+            type="email"
+            placeholder="Write your email here"
+            id="email-input"
+          />
+          <button id="submit-btn" onclick="goToEmail()">Subscriibe</button>
+        </form>
+
+        <span
+          >Created with Love by WebDesigner
+          <img src="./assets/resource/images/love.png" alt=""
+        /></span>
+      </article>
+      <article id="confirmation-page">
+        <h1>YOUR EMAIL HAS BEEN CONFIRMED</h1>
+        <h2>THANK'S FOR SUBSCRIBING</h2>
+        <p>
+          Now we just need to confirm your email adress - please click the link
+          in the email we sent you. Thanks
+        </p>
+        <button class="confirm-page__button" onclick="goToHomePage()">
+          BACK TO DESIGNERCHALLANGE.COM
+        </button>
+      </article>
+    </footer>
     <script src="./assets/js/main.js"></script>
   </body>
 </html>
