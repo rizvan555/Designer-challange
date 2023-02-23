@@ -58,6 +58,9 @@
     font-size: 0.6rem;
     margin-bottom: 6vh;
   }
+  .first-page__article p img {
+    width: 20px;
+  }
   .first-page__article a {
     font-size: 0.6rem;
     color: #ff3571;

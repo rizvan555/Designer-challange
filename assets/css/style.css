@@ -70,6 +70,9 @@ header .logo {
   font-size: 1.2rem;
   margin-bottom: 20vh;
 }
+.first-page__article p img {
+  width: 40px;
+}
 .first-page__article a {
   font-size: 1.2rem;
   color: #ff3571;
