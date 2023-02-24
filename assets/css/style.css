@@ -17,7 +17,7 @@ header {
   display: flex;
   align-items: center;
   padding: 20px 30px;
-  gap: 11px;
+  gap: 10px;
   position: relative;
 }
 header .logo {
@@ -33,7 +33,7 @@ header .logo {
 .header__article h1 {
   font-weight: bold;
   font-size: 1.5rem;
-  padding-left: 20px;
+  padding-left: 25px;
 }
 .header__article h4 {
   font-size: 1rem;
