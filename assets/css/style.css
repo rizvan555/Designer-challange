@@ -17,7 +17,7 @@ header {
   display: flex;
   align-items: center;
   padding: 20px 30px;
-  gap: 10px;
+  gap: 11px;
   position: relative;
 }
 header .logo {
@@ -256,6 +256,7 @@ footer {
   border: none;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 .main-site-article button {
   width: 15vw;
   padding: 15px 20px;
